@@ -25,6 +25,7 @@ type Notification struct {
 	Title        string `json:"title,omitempty"`
 	Body         string `json:"body,omitempty"`
 	ChannelID    string `json:"android_channel_id,omitempty"`
+	Image         string `json:"image,omitempty"`
 	Icon         string `json:"icon,omitempty"`
 	Sound        string `json:"sound,omitempty"`
 	Badge        string `json:"badge,omitempty"`
